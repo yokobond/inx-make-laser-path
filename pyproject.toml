@@ -15,3 +15,4 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poe.tasks]
 setup = "python ./scripts/setup.py inx_make_laser_path inx_make_laser_path"
+build = "python ./scripts/build.py inx_make_laser_path build"
