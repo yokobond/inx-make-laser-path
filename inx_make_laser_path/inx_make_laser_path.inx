@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+  <name>Make Laser Path</name>
+  <id>com.yengawa.make_laser_path</id>
+  <param name="trail_width" type="float" min="1" max="100"
+    gui-text="Width to leave between laser path (mm):">4.0</param>
+  <effect needs-live-preview="false">
+    <object-type>all</object-type>
+    <effects-menu>
+      <submenu name="TukuMana"/>
+    </effects-menu>
+  </effect>
+  <script>
+    <command location="inx" interpreter="python">inx_make_laser_path.py</command>
+  </script>
+</inkscape-extension>
